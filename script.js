@@ -12,7 +12,7 @@ let SorrahLocation = document.querySelector(".location");
 let backArrow = document.querySelectorAll(".back-arrow");
 
 let min = 78 - 1 /* this one for indexing*/;
-let max = 85 - 1 /* this one for indexing*/;
+let max = 114 - 1 /* this one for indexing*/;
 
 
 generateRandSorrah.forEach(button => {
