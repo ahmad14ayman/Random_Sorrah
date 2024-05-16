@@ -11,7 +11,7 @@ let ayaNumb = document.querySelector(".aya-numb");
 let SorrahLocation = document.querySelector(".location");
 let backArrow = document.querySelectorAll(".back-arrow");
 
-let min = 78 - 1 /* this one for indexing*/;
+let min = 77 - 1 /* this one for indexing*/;
 let max = 114 - 1 /* this one for indexing*/;
 
 
