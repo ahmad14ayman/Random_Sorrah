@@ -11,8 +11,8 @@ let ayaNumb = document.querySelector(".aya-numb");
 let SorrahLocation = document.querySelector(".location");
 let backArrow = document.querySelectorAll(".back-arrow");
 
-let min = 73 - 1 /* this one for indexing*/;
-let max = 77 - 1 /* this one for indexing*/;
+let min = 72 - 1 /* this one for indexing*/;
+let max = 75 - 1 /* this one for indexing*/;
 
 
 generateRandSorrah.forEach(button => {
