@@ -4,51 +4,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Sorah</title>
+    <title>Palastine</title>
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/main-style.css">
     <link rel="icon" href="images/palestine2.jpg">
 </head>
 
 <body>
-    <div class="container">
-        <p>اللَّهمَّ صلِّ وسلِّم وبارك على النِّعمة المسداة، والرَّحمةِ المهداة، والسِّراجِ المنير، صاحبِ الشَّفاعةِ
-            الكُبرى، والوَسيلةِ العُظمى، مَن نَصَحَ الأُمَّة، وجاهد في الله حقَّ جهادِهِ </p>
-        <div class="generate-r-sor button">Generate Random Sorah</div>
-        <div class="generate-r-aya button mt-10">Generate Random Aya</div>
-        <div class="output">
-        </div>
-    </div>
-    <div class="random-sorah center-col-flex hidden">
-        <div class="back-arrow"><i class="fa-solid fa-circle-right"></i></div>
-        <div class="sorrah-container center-col-flex full-width gap-20">
-            <div class="sorrah between-flex full-width">
-                <div class="name-ar"></div>
-                <div class="name-en"></div>
+    <div class="page">
+        <div class="container">
+            <div class="box box1">
+                <div class="nabi">اللهم صل على محمد وعلى آل محمد، كما صليت على إبراهيم، وعلى آل إبراهيم، إنك حميد مجيد،
+                    اللهم بارك على محمد، وعلى آل محمد كما باركت على إبراهيم، وعلى آل إبراهيم إنك حميد مجيد
+                </div>
             </div>
-            <div class="sorrah-numbers"></div>
-            <div class="location"></div>
+            <div class="box box2">
+                <div class="aya"></div>
+                <div>[ <span class="sorrah-name"></span> <span class="aya-id"></span> : <span
+                        class="sorrah-length"></span> ]</div>
+            </div>
+            <div class="select-range">
+                <select name="from-sorah">
+                    <option value="67">من</option>
+                    <option value="67">الملك</option>
+                    <option value="68">القلم</option>
+                    <option value="69">الحاقه</option>
+                    <option value="70">المعارج</option>
+                    <option value="71">نوح</option>
+                    <option value="72">الجن</option>
+                    <option value="73">المُزَّمِّلِ</option>
+                    <option value="74">المدثر</option>
+                    <option value="75">القيامه</option>
+                    <option value="76">الانسان</option>
+                    <option value="77">المرسلات</option>
+                    <option value="78">النبأ</option>
+                    <option value="79">النازعات</option>
+                    <option value="80">عبس</option>
+                    <option value="81">التكوير</option>
+                    <option value="82">الانفطار</option>
+                    <option value="83">المطففين</option>
+                    <option value="84">الانشقاق</option>
+                    <option value="85">البروج</option>
+                    <option value="86">الطارق</option>
+                    <option value="87">الاعلي</option>
+                    <option value="88">الغاشيه</option>
+                    <option value="89">الفجر</option>
+                    <option value="90">البد</option>
+                    <option value="91">الشمس</option>
+                    <option value="92">الليل</option>
+                    <option value="93">الضحي</option>
+                    <option value="94">الشرح</option>
+                    <option value="95">التين</option>
+                    <option value="96">العلق</option>
+                    <option value="97">القدر</option>
+                    <option value="98">البينه</option>
+                    <option value="99">الزلزه</option>
+                    <option value="100">العاديات</option>
+                    <option value="101">القارعه</option>
+                    <option value="102">التكاثر</option>
+                    <option value="103">العصر</option>
+                    <option value="104">الهمزة</option>
+                    <option value="105">الفيل</option>
+                    <option value="106">قريش</option>
+                    <option value="107">الماعون</option>
+                    <option value="108">الكوثر</option>
+                    <option value="109">الكافرون</option>
+                    <option value="110">النصر</option>
+                    <option value="111">المسد</option>
+                    <option value="112">الاخلاص</option>
+                    <option value="113">الفلق</option>
+                    <option value="114">الناس</option>
+                </select>
+                <select name="to-sorah">
+                    <option value="114">الى</option>
+                    <option value="67">الملك</option>
+                    <option value="68">القلم</option>
+                    <option value="69">الحاقه</option>
+                    <option value="70">المعارج</option>
+                    <option value="71">نوح</option>
+                    <option value="72">الجن</option>
+                    <option value="73">المُزَّمِّلِ</option>
+                    <option value="74">المدثر</option>
+                    <option value="75">القيامه</option>
+                    <option value="76">الانسان</option>
+                    <option value="77">المرسلات</option>
+                    <option value="78">النبأ</option>
+                    <option value="79">النازعات</option>
+                    <option value="80">عبس</option>
+                    <option value="81">التكوير</option>
+                    <option value="82">الانفطار</option>
+                    <option value="83">المطففين</option>
+                    <option value="84">الانشقاق</option>
+                    <option value="85">البروج</option>
+                    <option value="86">الطارق</option>
+                    <option value="87">الاعلي</option>
+                    <option value="88">الغاشيه</option>
+                    <option value="89">الفجر</option>
+                    <option value="90">البد</option>
+                    <option value="91">الشمس</option>
+                    <option value="92">الليل</option>
+                    <option value="93">الضحي</option>
+                    <option value="94">الشرح</option>
+                    <option value="95">التين</option>
+                    <option value="96">العلق</option>
+                    <option value="97">القدر</option>
+                    <option value="98">البينه</option>
+                    <option value="99">الزلزه</option>
+                    <option value="100">العاديات</option>
+                    <option value="101">القارعه</option>
+                    <option value="102">التكاثر</option>
+                    <option value="103">العصر</option>
+                    <option value="104">الهمزة</option>
+                    <option value="105">الفيل</option>
+                    <option value="106">قريش</option>
+                    <option value="107">الماعون</option>
+                    <option value="108">الكوثر</option>
+                    <option value="109">الكافرون</option>
+                    <option value="110">النصر</option>
+                    <option value="111">المسد</option>
+                    <option value="112">الاخلاص</option>
+                    <option value="113">الفلق</option>
+                    <option value="114">الناس</option>
+                </select>
+            </div>
+            <div class="button generate">Generate Random Aya</div>
         </div>
-        <div class="generate-r-sor button">Generate Another Sorah</div>
-        <!-- <div class="button">Show Sorrah</div> -->
     </div>
-    <div class="random-aya center-col-flex hidden">
-        <div class="back-arrow"><i class="fa-solid fa-circle-right"></i></div>
-        <div class="sorrah between-flex full-width">
-            <div class="name-ar"></div>
-            <div class="name-en"></div>
-        </div>
-        <div class="aya center-flex full-width">
-            <div class="aya-text"></div>
-            <div class="aya-numb center-flex me-5"></div>
-        </div>
-        <div class="generate-r-aya button">Generate Another Aya</div>
-        <!-- <div class="button">Show Sorrah</div> -->
-    </div>
-    <div class="show-sorrah"></div>
-
-    <script src="script.js"></script>
+    <script src="programming/main.js" type="module"></script>
 </body>
 
 </html>
