@@ -1,7 +1,7 @@
 let generateMain = document.querySelector(".generate");
 let fromRange = document.getElementsByName("from-sorah")[0];
 let toRange = document.getElementsByName("to-sorah")[0];
-let min = +fromRange.value, max = +toRange.value;
+let min = 144, max = 41;
 // Second Box
 
 let aya = document.querySelector(".aya");
